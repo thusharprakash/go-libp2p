@@ -8,17 +8,17 @@ import (
 	"syscall"
 
 	"github.com/libp2p/go-libp2p"
-	"github.com/libp2p/go-libp2p/p2p/discovery/mdns"
-	"github.com/libp2p/go-libp2p/p2p/muxer/yamux"
-	tls "github.com/libp2p/go-libp2p/p2p/security/tls"
-	"github.com/libp2p/go-libp2p/p2p/transport/tcp"
-	"github.com/libp2p/go-libp2p/p2p/transport/websocket"
+	"github.com/thusharprakash/go-libp2p/p2p/discovery/mdns"
+	"github.com/thusharprakash/go-libp2p/p2p/muxer/yamux"
+	tls "github.com/thusharprakash/go-libp2p/p2p/security/tls"
+	"github.com/thusharprakash/go-libp2p/p2p/transport/tcp"
+	"github.com/thusharprakash/go-libp2p/p2p/transport/websocket"
 
 	kaddht "github.com/libp2p/go-libp2p-kad-dht"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
-	"github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/routing"
+	"github.com/thusharprakash/go-libp2p/core/host"
+	"github.com/thusharprakash/go-libp2p/core/peer"
+	"github.com/thusharprakash/go-libp2p/core/routing"
 
 	"github.com/multiformats/go-multiaddr"
 )

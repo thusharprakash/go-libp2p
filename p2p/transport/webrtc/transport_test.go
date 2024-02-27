@@ -14,9 +14,6 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
 	"github.com/multiformats/go-multibase"
@@ -24,6 +21,9 @@ import (
 	quicproxy "github.com/quic-go/quic-go/integrationtests/tools/proxy"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/thusharprakash/go-libp2p/core/crypto"
+	"github.com/thusharprakash/go-libp2p/core/network"
+	"github.com/thusharprakash/go-libp2p/core/peer"
 	"golang.org/x/crypto/sha3"
 )
 

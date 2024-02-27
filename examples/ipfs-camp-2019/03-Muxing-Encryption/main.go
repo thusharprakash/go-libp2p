@@ -6,11 +6,11 @@ import (
 	"time"
 
 	"github.com/libp2p/go-libp2p"
-	"github.com/libp2p/go-libp2p/p2p/transport/tcp"
-	"github.com/libp2p/go-libp2p/p2p/transport/websocket"
+	"github.com/thusharprakash/go-libp2p/p2p/transport/tcp"
+	"github.com/thusharprakash/go-libp2p/p2p/transport/websocket"
 
-	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"
+	"github.com/thusharprakash/go-libp2p/core/peer"
 )
 
 func main() {

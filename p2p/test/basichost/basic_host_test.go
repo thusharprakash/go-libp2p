@@ -7,14 +7,14 @@ import (
 	"time"
 
 	"github.com/libp2p/go-libp2p"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/peerstore"
-	"github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/client"
-	"github.com/libp2p/go-libp2p/p2p/protocol/circuitv2/relay"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/thusharprakash/go-libp2p/core/network"
+	"github.com/thusharprakash/go-libp2p/core/peer"
+	"github.com/thusharprakash/go-libp2p/core/peerstore"
+	"github.com/thusharprakash/go-libp2p/p2p/protocol/circuitv2/client"
+	"github.com/thusharprakash/go-libp2p/p2p/protocol/circuitv2/relay"
 )
 
 func TestNoStreamOverTransientConnection(t *testing.T) {

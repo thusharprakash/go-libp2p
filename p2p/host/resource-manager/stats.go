@@ -3,8 +3,8 @@ package rcmgr
 import (
 	"strings"
 
-	"github.com/libp2p/go-libp2p/p2p/metricshelper"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/thusharprakash/go-libp2p/p2p/metricshelper"
 )
 
 const metricNamespace = "libp2p_rcmgr"

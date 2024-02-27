@@ -3,7 +3,7 @@ module github.com/thusharprakash/go-libp2p/examples/pubsub/chat
 go 1.20
 
 require (
-	github.com/libp2p/go-libp2p v0.32.0
+	github.com/thusharprakash/go-libp2p v0.32.0
 	github.com/libp2p/go-libp2p-kad-dht v0.25.1
 	github.com/libp2p/go-libp2p-pubsub v0.10.0
 )

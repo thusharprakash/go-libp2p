@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/go-redis/redis/v8 v8.11.5
-	github.com/libp2p/go-libp2p v0.0.0
+	github.com/thusharprakash/go-libp2p v0.0.0
 	github.com/multiformats/go-multiaddr v0.12.2
 )
 
@@ -110,4 +110,4 @@ require (
 	lukechampine.com/blake3 v1.2.1 // indirect
 )
 
-replace github.com/libp2p/go-libp2p => ../
+replace github.com/thusharprakash/go-libp2p => ../

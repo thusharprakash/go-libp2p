@@ -8,12 +8,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/sec"
-	"github.com/libp2p/go-libp2p/p2p/security/noise"
-	tls "github.com/libp2p/go-libp2p/p2p/security/tls"
 	"github.com/stretchr/testify/assert"
+	"github.com/thusharprakash/go-libp2p/core/crypto"
+	"github.com/thusharprakash/go-libp2p/core/peer"
+	"github.com/thusharprakash/go-libp2p/core/sec"
+	"github.com/thusharprakash/go-libp2p/p2p/security/noise"
+	tls "github.com/thusharprakash/go-libp2p/p2p/security/tls"
 )
 
 type Factory func(*testing.B, crypto.PrivKey) sec.SecureTransport
