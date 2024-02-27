@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
+	"github.com/thusharprakash/go-libp2p/core/catch"
 	pb "github.com/thusharprakash/go-libp2p/core/crypto/pb"
-	"github.com/thusharprakash/go-libp2p/core/internal/catch"
 
 	"github.com/decred/dcrd/dcrec/secp256k1/v4"
 	"github.com/decred/dcrd/dcrec/secp256k1/v4/ecdsa"

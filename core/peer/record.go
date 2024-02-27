@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/thusharprakash/go-libp2p/core/internal/catch"
+	"github.com/thusharprakash/go-libp2p/core/catch"
 	"github.com/thusharprakash/go-libp2p/core/peer/pb"
 	"github.com/thusharprakash/go-libp2p/core/record"
 
