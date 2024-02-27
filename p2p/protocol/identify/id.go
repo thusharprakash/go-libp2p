@@ -54,7 +54,7 @@ const (
 	maxMessages  = 10
 )
 
-var defaultUserAgent = "github.com/libp2p/go-libp2p"
+var defaultUserAgent = "github.com/thusharprakash/go-libp2p"
 
 type identifySnapshot struct {
 	seq       uint64

@@ -18,9 +18,9 @@ import (
 	libp2pwebrtc "github.com/thusharprakash/go-libp2p/p2p/transport/webrtc"
 
 	"github.com/go-redis/redis/v8"
-	"github.com/libp2p/go-libp2p"
 	ma "github.com/multiformats/go-multiaddr"
 	manet "github.com/multiformats/go-multiaddr/net"
+	"github.com/thusharprakash/go-libp2p"
 	"github.com/thusharprakash/go-libp2p/core/peer"
 	"github.com/thusharprakash/go-libp2p/p2p/muxer/yamux"
 	"github.com/thusharprakash/go-libp2p/p2p/protocol/ping"

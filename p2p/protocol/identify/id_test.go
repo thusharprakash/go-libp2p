@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/thusharprakash/go-libp2p"
 	ic "github.com/thusharprakash/go-libp2p/core/crypto"
 	"github.com/thusharprakash/go-libp2p/core/event"
 	"github.com/thusharprakash/go-libp2p/core/host"
@@ -43,7 +43,7 @@ func testKnowsAddrs(t *testing.T, h host.Host, p peer.ID, expected []ma.Multiadd
 
 func testHasAgentVersion(t *testing.T, h host.Host, p peer.ID) {
 	v, err := h.Peerstore().Get(p, "AgentVersion")
-	if v.(string) != "github.com/libp2p/go-libp2p" { // this is the default user agent
+	if v.(string) != "github.com/thusharprakash/go-libp2p" { // this is the default user agent
 		t.Error("agent version mismatch", err)
 	}
 }

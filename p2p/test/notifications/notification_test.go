@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/thusharprakash/go-libp2p"
 	"github.com/thusharprakash/go-libp2p/core/event"
 	libp2pquic "github.com/thusharprakash/go-libp2p/p2p/transport/quic"
 	"github.com/thusharprakash/go-libp2p/p2p/transport/tcp"

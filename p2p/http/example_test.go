@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/libp2p/go-libp2p"
 	ma "github.com/multiformats/go-multiaddr"
+	"github.com/thusharprakash/go-libp2p"
 	"github.com/thusharprakash/go-libp2p/core/peer"
 	libp2phttp "github.com/thusharprakash/go-libp2p/p2p/http"
 )

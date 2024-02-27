@@ -8,7 +8,7 @@
 <p align="center">
   <a href="http://protocol.ai"><img src="https://img.shields.io/badge/made%20by-Protocol%20Labs-blue.svg?style=flat-square" /></a>
   <a href="http://libp2p.io/"><img src="https://img.shields.io/badge/project-libp2p-yellow.svg?style=flat-square" /></a>
-  <a href="https://pkg.go.dev/github.com/libp2p/go-libp2p"><img src="https://pkg.go.dev/badge/github.com/libp2p/go-libp2p.svg" alt="Go Reference"></a>
+  <a href="https://pkg.go.dev/github.com/thusharprakash/go-libp2p"><img src="https://pkg.go.dev/badge/github.com/libp2p/go-libp2p.svg" alt="Go Reference"></a>
   <a href="https://discuss.libp2p.io"><img src="https://img.shields.io/discourse/https/discuss.libp2p.io/posts.svg"/></a>
   <a href="https://marcopolo.github.io/FlakyTests/"><img src="https://marcopolo.github.io/FlakyTests/current-score.svg"/></a>
 </p>
@@ -48,7 +48,7 @@ This repository (`go-libp2p`) serves as the entrypoint to the universe of packag
 You can start using go-libp2p in your Go application simply by adding imports from our repos, e.g.:
 
 ```go
-import "github.com/libp2p/go-libp2p"
+import "github.com/thusharprakash/go-libp2p"
 ```
 
 ## Examples

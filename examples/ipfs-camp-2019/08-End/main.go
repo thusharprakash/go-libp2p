@@ -7,9 +7,9 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/libp2p/go-libp2p"
 	kaddht "github.com/libp2p/go-libp2p-kad-dht"
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
+	"github.com/thusharprakash/go-libp2p"
 	"github.com/thusharprakash/go-libp2p/core/host"
 	"github.com/thusharprakash/go-libp2p/core/peer"
 	"github.com/thusharprakash/go-libp2p/core/routing"

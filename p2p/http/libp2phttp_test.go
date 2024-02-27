@@ -20,9 +20,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"
+	"github.com/thusharprakash/go-libp2p"
 	host "github.com/thusharprakash/go-libp2p/core/host"
 	"github.com/thusharprakash/go-libp2p/core/peer"
 	libp2phttp "github.com/thusharprakash/go-libp2p/p2p/http"

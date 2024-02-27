@@ -7,8 +7,8 @@ import (
 
 	"github.com/thusharprakash/go-libp2p/p2p/net/connmgr"
 
-	"github.com/libp2p/go-libp2p"
 	dht "github.com/libp2p/go-libp2p-kad-dht"
+	"github.com/thusharprakash/go-libp2p"
 	"github.com/thusharprakash/go-libp2p/core/crypto"
 	"github.com/thusharprakash/go-libp2p/core/host"
 	"github.com/thusharprakash/go-libp2p/core/routing"

@@ -38,7 +38,7 @@ import (
 	mrand "math/rand"
 	"os"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/thusharprakash/go-libp2p"
 	"github.com/thusharprakash/go-libp2p/core/crypto"
 	"github.com/thusharprakash/go-libp2p/core/host"
 	"github.com/thusharprakash/go-libp2p/core/network"

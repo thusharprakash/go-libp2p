@@ -4,7 +4,7 @@ import (
 	"context"
 	"log"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/thusharprakash/go-libp2p"
 	"github.com/thusharprakash/go-libp2p/p2p/net/swarm"
 	"github.com/thusharprakash/go-libp2p/p2p/protocol/circuitv2/client"
 	"github.com/thusharprakash/go-libp2p/p2p/protocol/circuitv2/relay"

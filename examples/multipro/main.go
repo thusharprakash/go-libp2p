@@ -5,7 +5,7 @@ import (
 	"log"
 	"math/rand"
 
-	"github.com/libp2p/go-libp2p"
+	"github.com/thusharprakash/go-libp2p"
 	"github.com/thusharprakash/go-libp2p/core/crypto"
 	"github.com/thusharprakash/go-libp2p/core/peerstore"
 
