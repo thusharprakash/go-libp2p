@@ -2,11 +2,10 @@
 
 package connmgr
 
-import "github.com/raulk/go-watchdog"
-
-func registerWatchdog(cb func()) (unregister func()) {
-	return watchdog.RegisterPostGCNotifee(cb)
-}
+// func registerWatchdog(cb func()) (unregister func()) {
+// 	// return watchdog.RegisterPostGCNotifee(cb)
+// 	return nil
+// }
 
 // WithEmergencyTrim is an option to enable trimming connections on memory emergency.
 func WithEmergencyTrim(enable bool) Option {
