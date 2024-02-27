@@ -1,4 +1,4 @@
-module github.com/libp2p/go-libp2p/examples/pubsub/chat
+module github.com/thusharprakash/go-libp2p/examples/pubsub/chat
 
 go 1.20
 

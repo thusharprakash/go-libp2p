@@ -38,7 +38,7 @@ To learn more, check out the following resources:
 
 # Roadmap
 
-Our roadmap for go-libp2p can be found here: https://github.com/libp2p/go-libp2p/blob/master/ROADMAP.md
+Our roadmap for go-libp2p can be found here: https://github.com/thusharprakash/go-libp2p/blob/master/ROADMAP.md
 This document represents current projects the go-libp2p team is focused on and provides an estimation of completion targets. It is a complementary roadmap to the overarching libp2p project roadmap: https://github.com/libp2p/specs/blob/master/ROADMAP.md
 
 # Usage
@@ -58,19 +58,19 @@ Examples can be found in the [examples folder](examples).
 ## Dashboards
 
 We provide prebuilt Grafana dashboards so that applications can better monitor libp2p in production.
-You can find the [dashboard JSON files here](https://github.com/libp2p/go-libp2p/tree/master/dashboards).
+You can find the [dashboard JSON files here](https://github.com/thusharprakash/go-libp2p/tree/master/dashboards).
 
-We also have live [Public Dashboards](https://github.com/libp2p/go-libp2p/tree/master/dashboards/README.md#public-dashboards) that you can check out to see real time monitoring in action.
+We also have live [Public Dashboards](https://github.com/thusharprakash/go-libp2p/tree/master/dashboards/README.md#public-dashboards) that you can check out to see real time monitoring in action.
 
 
 # Contribute
 
-go-libp2p is MIT-licensed open source software. We welcome contributions big and small! Take a look at the [community contributing notes](https://github.com/ipfs/community/blob/master/CONTRIBUTING.md). Please make sure to check the [issues](https://github.com/libp2p/go-libp2p/issues). Search the closed ones before reporting things, and help us with the open ones.
+go-libp2p is MIT-licensed open source software. We welcome contributions big and small! Take a look at the [community contributing notes](https://github.com/ipfs/community/blob/master/CONTRIBUTING.md). Please make sure to check the [issues](https://github.com/thusharprakash/go-libp2p/issues). Search the closed ones before reporting things, and help us with the open ones.
 
 Guidelines:
 
 - read the [libp2p spec](https://github.com/libp2p/specs)
-- ask questions or talk about things in our [discussion forums](https://discuss.libp2p.io), or open an [issue](https://github.com/libp2p/go-libp2p/issues) for bug reports, or #libp2p-implementers on [Filecoin slack](https://filecoin.io/slack).
+- ask questions or talk about things in our [discussion forums](https://discuss.libp2p.io), or open an [issue](https://github.com/thusharprakash/go-libp2p/issues) for bug reports, or #libp2p-implementers on [Filecoin slack](https://filecoin.io/slack).
 - ensure you are able to contribute (no legal issues please -- we use the DCO)
 - get in touch with @libp2p/go-libp2p-maintainers about how best to contribute
 - have fun!

@@ -1,4 +1,4 @@
-module github.com/libp2p/go-libp2p/examples
+module github.com/thusharprakash/go-libp2p/examples
 
 go 1.20
 

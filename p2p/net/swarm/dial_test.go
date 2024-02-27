@@ -7,12 +7,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/peerstore"
-	testutil "github.com/libp2p/go-libp2p/core/test"
-	"github.com/libp2p/go-libp2p/p2p/net/swarm"
-	swarmt "github.com/libp2p/go-libp2p/p2p/net/swarm/testing"
+	"github.com/thusharprakash/go-libp2p/core/network"
+	"github.com/thusharprakash/go-libp2p/core/peer"
+	"github.com/thusharprakash/go-libp2p/core/peerstore"
+	testutil "github.com/thusharprakash/go-libp2p/core/test"
+	"github.com/thusharprakash/go-libp2p/p2p/net/swarm"
+	swarmt "github.com/thusharprakash/go-libp2p/p2p/net/swarm/testing"
 
 	"github.com/libp2p/go-libp2p-testing/ci"
 

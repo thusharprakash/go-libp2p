@@ -1,10 +1,10 @@
 package holepunch
 
 import (
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/p2p/metricshelper"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/thusharprakash/go-libp2p/core/network"
+	"github.com/thusharprakash/go-libp2p/p2p/metricshelper"
 )
 
 const metricNamespace = "libp2p_holepunch"

@@ -5,9 +5,9 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/test"
 	ma "github.com/multiformats/go-multiaddr"
+	"github.com/thusharprakash/go-libp2p/core/network"
+	"github.com/thusharprakash/go-libp2p/core/test"
 )
 
 func sortAddrDelays(addrDelays []network.AddrDelay) {

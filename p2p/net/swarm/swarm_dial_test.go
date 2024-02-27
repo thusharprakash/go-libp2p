@@ -10,19 +10,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/libp2p/go-libp2p/core/crypto"
-	"github.com/libp2p/go-libp2p/core/network"
-	"github.com/libp2p/go-libp2p/core/peer"
-	"github.com/libp2p/go-libp2p/core/peerstore"
-	"github.com/libp2p/go-libp2p/core/test"
-	"github.com/libp2p/go-libp2p/p2p/host/eventbus"
-	"github.com/libp2p/go-libp2p/p2p/host/peerstore/pstoremem"
-	libp2pquic "github.com/libp2p/go-libp2p/p2p/transport/quic"
-	"github.com/libp2p/go-libp2p/p2p/transport/quicreuse"
-	"github.com/libp2p/go-libp2p/p2p/transport/tcp"
-	"github.com/libp2p/go-libp2p/p2p/transport/websocket"
-	libp2pwebtransport "github.com/libp2p/go-libp2p/p2p/transport/webtransport"
 	"github.com/quic-go/quic-go"
+	"github.com/thusharprakash/go-libp2p/core/crypto"
+	"github.com/thusharprakash/go-libp2p/core/network"
+	"github.com/thusharprakash/go-libp2p/core/peer"
+	"github.com/thusharprakash/go-libp2p/core/peerstore"
+	"github.com/thusharprakash/go-libp2p/core/test"
+	"github.com/thusharprakash/go-libp2p/p2p/host/eventbus"
+	"github.com/thusharprakash/go-libp2p/p2p/host/peerstore/pstoremem"
+	libp2pquic "github.com/thusharprakash/go-libp2p/p2p/transport/quic"
+	"github.com/thusharprakash/go-libp2p/p2p/transport/quicreuse"
+	"github.com/thusharprakash/go-libp2p/p2p/transport/tcp"
+	"github.com/thusharprakash/go-libp2p/p2p/transport/websocket"
+	libp2pwebtransport "github.com/thusharprakash/go-libp2p/p2p/transport/webtransport"
 
 	ma "github.com/multiformats/go-multiaddr"
 	madns "github.com/multiformats/go-multiaddr-dns"
@@ -250,7 +250,7 @@ func TestAddrResolutionRecursive(t *testing.T) {
 	require.Contains(t, addrs2, addr1)
 }
 
-// see https://github.com/libp2p/go-libp2p/issues/2562
+// see https://github.com/thusharprakash/go-libp2p/issues/2562
 func TestAddrResolutionRecursiveTransportSpecific(t *testing.T) {
 	p := test.RandPeerIDFatal(t)
 

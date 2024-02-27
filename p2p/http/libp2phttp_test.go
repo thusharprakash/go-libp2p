@@ -21,12 +21,12 @@ import (
 	"time"
 
 	"github.com/libp2p/go-libp2p"
-	host "github.com/libp2p/go-libp2p/core/host"
-	"github.com/libp2p/go-libp2p/core/peer"
-	libp2phttp "github.com/libp2p/go-libp2p/p2p/http"
-	httpping "github.com/libp2p/go-libp2p/p2p/http/ping"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/stretchr/testify/require"
+	host "github.com/thusharprakash/go-libp2p/core/host"
+	"github.com/thusharprakash/go-libp2p/core/peer"
+	libp2phttp "github.com/thusharprakash/go-libp2p/p2p/http"
+	httpping "github.com/thusharprakash/go-libp2p/p2p/http/ping"
 )
 
 func TestHTTPOverStreams(t *testing.T) {
